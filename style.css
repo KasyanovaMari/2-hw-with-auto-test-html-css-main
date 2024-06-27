@@ -159,7 +159,6 @@ table {
 
 th, td {
     border: 1px solid #95A1BB;
-
     text-align: left;
     padding: 12px 15px;
     text-align: center;
@@ -168,7 +167,7 @@ th, td {
 
 
 footer {
-    background-color: rgba(163, 168, 255);
+    background-color: rgba(163, 168, 255, 0.3);
     padding: 26px 0px;
     height: 70px;
     /* Стили для футера */
