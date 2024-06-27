@@ -104,6 +104,14 @@ select {
     /* Стили для нумерованного списка во второй секции */
 }
 
+ul {
+    padding: 0px 20px;
+}
+
+ol {
+    padding: 0 20px;
+}
+
 .label {
     font-family: 'Inter';
     line-height: 19.36px;
