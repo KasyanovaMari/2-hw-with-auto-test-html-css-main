@@ -7,8 +7,9 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
+    /* font-style: normal; */
     font-size: 16px;
+    color: #303030;
 }
 
 header {
@@ -49,8 +50,8 @@ header span {
 }
 
 .main-image {
-    width: 715px;
-    height: 508px;
+    max-width: 715px;
+    max-height: 508px;
     /* Стили для изображения в первой секции */
 }
 
@@ -77,34 +78,35 @@ select {
 }
 
 .section-title {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 700;
     line-height: 29.05px;
     text-align: left;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
     padding-left: 20px;
-    list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
-    margin-top: 25px;
-    font-family: Inter;
+    font-family: 'Inter';
     line-height: 19.36px;
     text-align: left;
+    list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    margin-top: 25px;
-    margin-left: 25px;
     line-height: 19.36px;
     text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 25px;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
-    font-family: Inter;
+    font-family: 'Inter';
     line-height: 19.36px;
     text-align: left;
     padding-left: 6px;
@@ -133,7 +135,7 @@ select {
     border-radius: 5px;
     border: none;
     background-color: #2965F1;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 14px;
     font-weight: 700;
     color: #FFFFFF;
@@ -155,7 +157,7 @@ table {
 
 th {
     border: 1px solid #95A1BB;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 14px;
     font-weight: 700;
     text-align: left;
@@ -167,7 +169,7 @@ th {
 
 td {
     border: 1px solid #95A1BB;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 14px;
     font-weight: 400;
     padding-top: 10px;
@@ -177,15 +179,17 @@ td {
 
 footer {
     background-color: rgba(163, 168, 255, 0.30);
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 26px 0px;
+    padding-bottom: 26px 0px;
+    height: 70px;
     /* Стили для футера */
 }
 
 .footer-link {
+    text-decoration: none;
     padding-left: 1px;
     color: #2965F1;
-    text-decoration: none;
     font-size: 17px;
+    font-weight: 400;
     /* Стили для футера */
 }
