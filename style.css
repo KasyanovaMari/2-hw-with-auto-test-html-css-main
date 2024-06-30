@@ -96,7 +96,11 @@ select {
     /* Стили для маркированного списка во второй секции */
 }
 
-
+.books {
+    line-height: 19px;
+    font-weight: 400;
+    padding: 0 20px;
+}
 /* Стили для нумерованного списка во второй секции */
 
 .label {
@@ -167,7 +171,7 @@ footer {
     /* Стили для футера */
 }
 
-.footer-link {
+.footerlink {
     text-decoration: none;
     padding-left: 1px;
     color: #2965F1;
