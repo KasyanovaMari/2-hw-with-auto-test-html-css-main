@@ -23,7 +23,7 @@ header span {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
-    line-height: 24.2px;
+    line-height: 24px;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
@@ -38,14 +38,14 @@ header span {
 .main-title {
     font-size: 48px;
     font-weight: 700;
-    line-height: 58.09px;
+    line-height: 58px;
     margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
     font-size: 18px;
-    line-height: 21.78px;
+    line-height: 21px;
     /* Стили для текста в первой секции */
 }
 
@@ -81,7 +81,7 @@ select {
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 700;
-    line-height: 29.05px;
+    line-height: 29px;
     text-align: left;
     margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
@@ -90,31 +90,18 @@ select {
 .frameworks-list {
     padding-left: 20px;
     font-family: 'Inter';
-    line-height: 19.36px;
+    line-height: 19px;
     text-align: left;
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
     /* Стили для маркированного списка во второй секции */
 }
 
-.books-list {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.36px;
-    padding: 0 20px;
-    /* Стили для нумерованного списка во второй секции */
-}
 
-ul {
-    padding: 0px 20px;
-}
-
-ol {
-    padding: 0 20px;
-}
+/* Стили для нумерованного списка во второй секции */
 
 .label {
     font-family: 'Inter';
-    line-height: 19.36px;
+    line-height: 19px;
     text-align: left;
     padding-left: 6px;
 /* Стили для подписей чекбоксов */
@@ -167,9 +154,8 @@ table {
 
 th, td {
     border: 1px solid #95A1BB;
-    text-align: left;
     padding: 12px 15px;
-    text-align: center;
+    text-align: left;
     /* Стили для ячеек таблицы */
 }
 
